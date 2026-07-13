@@ -10,16 +10,16 @@ export default function ServicesOne() {
               <div className="services-one__img-box">
                 <div className="services-one__img wow slideInLeft" data-wow-delay="100ms"
                   data-wow-duration="2500ms">
-                  <img src="/assets/images/cleanox5.png" alt="" />
+                  <img src="/assets/images/cleanox5.webp" alt="" />
                 </div>
                 <div className="services-one__shape-1">
                   <div className="services-one__shape-2 float-bob-x">
-                    <img src="/assets/images/shapes/services-one-shape-2.png" alt="" />
+                    <img src="/assets/images/shapes/services-one-shape-2.webp" alt="" />
                   </div>
                 </div>
                 <div className="services-one__shape-3"></div>
                 <div className="services-one__shape-4 float-bob-y">
-                  <img src="/assets/images/shapes/services-one-shape-4.png" alt="" />
+                  <img src="/assets/images/shapes/services-one-shape-4.webp" alt="" />
                 </div>
               </div>
             </div>
@@ -29,7 +29,7 @@ export default function ServicesOne() {
               <div className="section-title text-left sec-title-animation animation-style1">
                 <div className="section-title__tagline-box">
                   <div className="section-title__shape-1">
-                    <img src="/assets/images/shapes/section-title-shape-1.png" alt="" />
+                    <img src="/assets/images/shapes/section-title-shape-1.webp" alt="" />
                   </div>
                   <p className="section-title__tagline">Our Services</p>
                 </div>

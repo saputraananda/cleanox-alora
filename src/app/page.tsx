@@ -101,7 +101,7 @@ export default function Home() {
               <div className="sidebar-info-contents">
                 <div className="content-inner">
                   <div className="logo">
-                    <a href="#"><img src="/assets/images/resources/logo-4.png" alt="" /></a>
+                    <a href="#"><img src="/assets/images/resources/logo-4.webp" alt="" /></a>
                   </div>
                   <div className="content-box">
                     <h4>About Us</h4>

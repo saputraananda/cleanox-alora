@@ -2,14 +2,14 @@ export default function PortfolioThree() {
   return (
     <section className="portfolio-three">
       <div className="portfolio-three__sec-img">
-        <img src="/assets/images/project/portfolio-three-sec-img.png" alt="" />
+        <img src="/assets/images/project/portfolio-three-sec-img.webp" alt="" />
       </div>
       <div className="container">
         <div className="portfolio-three__inner">
           <div className="section-title-two text-left sec-title-animation animation-style1">
             <div className="section-title-two__tagline-box">
               <div className="section-title-two__shape-1">
-                <img src="/assets/images/shapes/section-title-shape-3.png" alt="" />
+                <img src="/assets/images/shapes/section-title-shape-3.webp" alt="" />
               </div>
               <p className="section-title-two__tagline">Gallery</p>
             </div>
@@ -22,16 +22,16 @@ export default function PortfolioThree() {
               <div className="col-xl-4 col-lg-6 col-md-6">
                 <div className="portfolio-three__single mt-73">
                   <div className="portfolio-three__img">
-                    <img src="/assets/images/project/portfolio-3-1.jpg" alt="" />
+                    <img src="/assets/images/project/portfolio-3-1.webp" alt="" />
                     <div className="portfolio-three__content">
                       <p className="portfolio-three__sub-title">farming</p>
                       <h4 className="portfolio-three__title"><a href="#">Full House Cleaning</a></h4>
                     </div>
                     <div className="portfolio-three__shape-1"
-                      style={{ backgroundImage: 'url(/assets/images/shapes/portfolio-three-shape-1.png)' }}>
+                      style={{ backgroundImage: 'url(/assets/images/shapes/portfolio-three-shape-1.webp)' }}>
                     </div>
                     <div className="portfolio-three__icon">
-                      <a className="img-popup" href="/assets/images/project/portfolio-3-1.jpg"><span
+                      <a className="img-popup" href="/assets/images/project/portfolio-3-1.webp"><span
                         className="icon-right-arrow"></span></a>
                     </div>
                   </div>
@@ -40,16 +40,16 @@ export default function PortfolioThree() {
               <div className="col-xl-4 col-lg-6 col-md-6">
                 <div className="portfolio-three__single mt-40">
                   <div className="portfolio-three__img">
-                    <img src="/assets/images/project/portfolio-3-2.jpg" alt="" />
+                    <img src="/assets/images/project/portfolio-3-2.webp" alt="" />
                     <div className="portfolio-three__content">
                       <p className="portfolio-three__sub-title">farming</p>
                       <h4 className="portfolio-three__title"><a href="#">Full House Cleaning</a></h4>
                     </div>
                     <div className="portfolio-three__shape-1"
-                      style={{ backgroundImage: 'url(/assets/images/shapes/portfolio-three-shape-1.png)' }}>
+                      style={{ backgroundImage: 'url(/assets/images/shapes/portfolio-three-shape-1.webp)' }}>
                     </div>
                     <div className="portfolio-three__icon">
-                      <a className="img-popup" href="/assets/images/project/portfolio-3-2.jpg"><span
+                      <a className="img-popup" href="/assets/images/project/portfolio-3-2.webp"><span
                         className="icon-right-arrow"></span></a>
                     </div>
                   </div>
@@ -58,16 +58,16 @@ export default function PortfolioThree() {
               <div className="col-xl-4 col-lg-6 col-md-6">
                 <div className="portfolio-three__single">
                   <div className="portfolio-three__img">
-                    <img src="/assets/images/project/portfolio-3-3.jpg" alt="" />
+                    <img src="/assets/images/project/portfolio-3-3.webp" alt="" />
                     <div className="portfolio-three__content">
                       <p className="portfolio-three__sub-title">farming</p>
                       <h4 className="portfolio-three__title"><a href="#">Full House Cleaning</a></h4>
                     </div>
                     <div className="portfolio-three__shape-1"
-                      style={{ backgroundImage: 'url(/assets/images/shapes/portfolio-three-shape-1.png)' }}>
+                      style={{ backgroundImage: 'url(/assets/images/shapes/portfolio-three-shape-1.webp)' }}>
                     </div>
                     <div className="portfolio-three__icon">
-                      <a className="img-popup" href="/assets/images/project/portfolio-3-3.jpg"><span
+                      <a className="img-popup" href="/assets/images/project/portfolio-3-3.webp"><span
                         className="icon-right-arrow"></span></a>
                     </div>
                   </div>
@@ -76,16 +76,16 @@ export default function PortfolioThree() {
               <div className="col-xl-4 col-lg-6 col-md-6">
                 <div className="portfolio-three__single">
                   <div className="portfolio-three__img">
-                    <img src="/assets/images/project/portfolio-3-6.jpg" alt="" />
+                    <img src="/assets/images/project/portfolio-3-6.webp" alt="" />
                     <div className="portfolio-three__content">
                       <p className="portfolio-three__sub-title">farming</p>
                       <h4 className="portfolio-three__title"><a href="#">Full House Cleaning</a></h4>
                     </div>
                     <div className="portfolio-three__shape-1"
-                      style={{ backgroundImage: 'url(/assets/images/shapes/portfolio-three-shape-1.png)' }}>
+                      style={{ backgroundImage: 'url(/assets/images/shapes/portfolio-three-shape-1.webp)' }}>
                     </div>
                     <div className="portfolio-three__icon">
-                      <a className="img-popup" href="/assets/images/project/portfolio-3-6.jpg"><span
+                      <a className="img-popup" href="/assets/images/project/portfolio-3-6.webp"><span
                         className="icon-right-arrow"></span></a>
                     </div>
                   </div>
@@ -94,16 +94,16 @@ export default function PortfolioThree() {
               <div className="col-xl-4 col-lg-6 col-md-6">
                 <div className="portfolio-three__single">
                   <div className="portfolio-three__img">
-                    <img src="/assets/images/project/portfolio-3-5.jpg" alt="" />
+                    <img src="/assets/images/project/portfolio-3-5.webp" alt="" />
                     <div className="portfolio-three__content">
                       <p className="portfolio-three__sub-title">farming</p>
                       <h4 className="portfolio-three__title"><a href="#">Full House Cleaning</a></h4>
                     </div>
                     <div className="portfolio-three__shape-1"
-                      style={{ backgroundImage: 'url(/assets/images/shapes/portfolio-three-shape-1.png)' }}>
+                      style={{ backgroundImage: 'url(/assets/images/shapes/portfolio-three-shape-1.webp)' }}>
                     </div>
                     <div className="portfolio-three__icon">
-                      <a className="img-popup" href="/assets/images/project/portfolio-3-5.jpg"><span
+                      <a className="img-popup" href="/assets/images/project/portfolio-3-5.webp"><span
                         className="icon-right-arrow"></span></a>
                     </div>
                   </div>
@@ -112,16 +112,16 @@ export default function PortfolioThree() {
               <div className="col-xl-4 col-lg-6 col-md-6">
                 <div className="portfolio-three__single">
                   <div className="portfolio-three__img">
-                    <img src="/assets/images/project/portfolio-3-4.jpg" alt="" />
+                    <img src="/assets/images/project/portfolio-3-4.webp" alt="" />
                     <div className="portfolio-three__content">
                       <p className="portfolio-three__sub-title">farming</p>
                       <h4 className="portfolio-three__title"><a href="#">Full House Cleaning</a></h4>
                     </div>
                     <div className="portfolio-three__shape-1"
-                      style={{ backgroundImage: 'url(/assets/images/shapes/portfolio-three-shape-1.png)' }}>
+                      style={{ backgroundImage: 'url(/assets/images/shapes/portfolio-three-shape-1.webp)' }}>
                     </div>
                     <div className="portfolio-three__icon">
-                      <a className="img-popup" href="/assets/images/project/portfolio-3-4.jpg"><span
+                      <a className="img-popup" href="/assets/images/project/portfolio-3-4.webp"><span
                         className="icon-right-arrow"></span></a>
                     </div>
                   </div>

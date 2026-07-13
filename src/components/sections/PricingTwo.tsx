@@ -5,7 +5,7 @@ export default function PricingTwo() {
         <div className="section-title-two text-center sec-title-animation animation-style1">
           <div className="section-title-two__tagline-box">
             <div className="section-title-two__shape-1">
-              <img src="/assets/images/shapes/section-title-shape-3.png" alt="" />
+              <img src="/assets/images/shapes/section-title-shape-3.webp" alt="" />
             </div>
             <p className="section-title-two__tagline">Pricing Plan</p>
           </div>
@@ -20,10 +20,10 @@ export default function PricingTwo() {
               <div className="pricing-two__top">
                 <div className="pricing-two__icon-shape"></div>
                 <div className="pricing-two__top-bg"
-                  style={{ backgroundImage: 'url(/assets/images/backgrounds/pricing-two-top-bg.jpg)' }}>
+                  style={{ backgroundImage: 'url(/assets/images/backgrounds/pricing-two-top-bg.webp)' }}>
                 </div>
                 <div className="pricing-two__top-bg-shape"
-                  style={{ backgroundImage: 'url(/assets/images/shapes/pricing-two-top-bg-shape.png)' }}>
+                  style={{ backgroundImage: 'url(/assets/images/shapes/pricing-two-top-bg-shape.webp)' }}>
                 </div>
                 <div className="pricing-two__icon-and-price-box">
                   <div className="pricing-two__icon">
@@ -81,10 +81,10 @@ export default function PricingTwo() {
               <div className="pricing-two__top">
                 <div className="pricing-two__icon-shape"></div>
                 <div className="pricing-two__top-bg"
-                  style={{ backgroundImage: 'url(/assets/images/backgrounds/pricing-two-top-bg.jpg)' }}>
+                  style={{ backgroundImage: 'url(/assets/images/backgrounds/pricing-two-top-bg.webp)' }}>
                 </div>
                 <div className="pricing-two__top-bg-shape"
-                  style={{ backgroundImage: 'url(/assets/images/shapes/pricing-two-top-bg-shape.png)' }}>
+                  style={{ backgroundImage: 'url(/assets/images/shapes/pricing-two-top-bg-shape.webp)' }}>
                 </div>
                 <div className="pricing-two__icon-and-price-box">
                   <div className="pricing-two__icon">
@@ -148,10 +148,10 @@ export default function PricingTwo() {
               <div className="pricing-two__top">
                 <div className="pricing-two__icon-shape"></div>
                 <div className="pricing-two__top-bg"
-                  style={{ backgroundImage: 'url(/assets/images/backgrounds/pricing-two-top-bg.jpg)' }}>
+                  style={{ backgroundImage: 'url(/assets/images/backgrounds/pricing-two-top-bg.webp)' }}>
                 </div>
                 <div className="pricing-two__top-bg-shape"
-                  style={{ backgroundImage: 'url(/assets/images/shapes/pricing-two-top-bg-shape.png)' }}>
+                  style={{ backgroundImage: 'url(/assets/images/shapes/pricing-two-top-bg-shape.webp)' }}>
                 </div>
                 <div className="pricing-two__icon-and-price-box">
                   <div className="pricing-two__icon">

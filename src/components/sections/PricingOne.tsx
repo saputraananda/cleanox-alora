@@ -20,7 +20,7 @@ export default function PricingOne() {
         <div className="section-title-two text-center">
           <div className="section-title-two__tagline-box" style={{ justifyContent: 'center' }}>
             <div className="section-title-two__shape-1">
-              <img src="/assets/images/shapes/section-title-shape-3.png" alt="" />
+              <img src="/assets/images/shapes/section-title-shape-3.webp" alt="" />
             </div>
             <p className="section-title-two__tagline">Pricing Plan</p>
           </div>
@@ -39,7 +39,7 @@ export default function PricingOne() {
               
               {/* Header Image Cover */}
               <div className="pricing-card-header" style={{ position: 'relative', height: '170px', display: 'flex', alignItems: 'center', padding: '30px 35px', overflow: 'hidden' }}>
-                <div style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, backgroundImage: 'url(/assets/images/cleanox-rumah.png)', backgroundSize: 'cover', backgroundPosition: 'center', zIndex: 1 }}></div>
+                <div style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, backgroundImage: 'url(/assets/images/cleanox-rumah.webp)', backgroundSize: 'cover', backgroundPosition: 'center', zIndex: 1 }}></div>
                 <div style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, background: 'linear-gradient(180deg, rgba(1, 45, 89, 0.45) 0%, rgba(1, 45, 89, 0.85) 100%)', zIndex: 2 }}></div>
                 
                 <div style={{ position: 'relative', zIndex: 3, display: 'flex', alignItems: 'center', gap: '15px' }}>
@@ -104,7 +104,7 @@ export default function PricingOne() {
 
               {/* Header Image Cover */}
               <div className="pricing-card-header" style={{ position: 'relative', height: '170px', display: 'flex', alignItems: 'center', padding: '30px 35px', overflow: 'hidden' }}>
-                <div style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, backgroundImage: 'url(/assets/images/cleanox-kantor.png)', backgroundSize: 'cover', backgroundPosition: 'center', zIndex: 1 }}></div>
+                <div style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, backgroundImage: 'url(/assets/images/cleanox-kantor.webp)', backgroundSize: 'cover', backgroundPosition: 'center', zIndex: 1 }}></div>
                 <div style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, background: 'linear-gradient(180deg, rgba(1, 45, 89, 0.45) 0%, rgba(1, 45, 89, 0.85) 100%)', zIndex: 2 }}></div>
                 
                 <div style={{ position: 'relative', zIndex: 3, display: 'flex', alignItems: 'center', gap: '15px' }}>
@@ -150,7 +150,7 @@ export default function PricingOne() {
               
               {/* Header Image Cover */}
               <div className="pricing-card-header" style={{ position: 'relative', height: '170px', display: 'flex', alignItems: 'center', padding: '30px 35px', overflow: 'hidden' }}>
-                <div style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, backgroundImage: 'url(/assets/images/cleanox-cafe.png)', backgroundSize: 'cover', backgroundPosition: 'center', zIndex: 1 }}></div>
+                <div style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, backgroundImage: 'url(/assets/images/cleanox-cafe.webp)', backgroundSize: 'cover', backgroundPosition: 'center', zIndex: 1 }}></div>
                 <div style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, background: 'linear-gradient(180deg, rgba(1, 45, 89, 0.45) 0%, rgba(1, 45, 89, 0.85) 100%)', zIndex: 2 }}></div>
                 
                 <div style={{ position: 'relative', zIndex: 3, display: 'flex', alignItems: 'center', gap: '15px' }}>

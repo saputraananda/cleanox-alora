@@ -11,11 +11,11 @@ export default function BlogOne() {
         <div className="section-title-two text-center sec-title-animation animation-style1">
           <div className="section-title-two__tagline-box">
             <div className="section-title-two__shape-1">
-              <img src="/assets/images/shapes/section-title-shape-2.png" alt="" />
+              <img src="/assets/images/shapes/section-title-shape-2.webp" alt="" />
             </div>
             <p className="section-title-two__tagline">News & Articles</p>
             <div className="section-title-two__shape-1">
-              <img src="/assets/images/shapes/section-title-shape-2.png" alt="" />
+              <img src="/assets/images/shapes/section-title-shape-2.webp" alt="" />
             </div>
           </div>
           <h2 className="section-title-two__title title-animation">Our Latest News & Articles</h2>
@@ -24,7 +24,7 @@ export default function BlogOne() {
           <div className="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="100ms">
             <div className="blog-one__single">
               <div className="blog-one__img">
-                <img src="/assets/images/blog/blog-1-1.jpg" alt="" />
+                <img src="/assets/images/blog/blog-1-1.webp" alt="" />
                 <div className="blog-one__date">
                   <p>24<br /><span>May</span></p>
                 </div>

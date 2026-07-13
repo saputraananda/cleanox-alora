@@ -83,7 +83,7 @@ export default function MainSliderOne() {
               }}></div>
 
               <div className="main-slider-one__image">
-                <img src="/hero.png" alt="Cleaning Service Professionals" style={{ width: '100%', height: 'auto' }} />
+                <img src="/hero.webp" alt="Cleaning Service Professionals" style={{ width: '100%', height: 'auto' }} />
               </div>
               
               {/* Floating Card: Teknisi Profesional (Top Right, lowered to not cover face) */}

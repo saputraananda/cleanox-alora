@@ -31,7 +31,7 @@ export const homeData = {
     subtitle: "Profil Kami",
     description: "Cleanox merupakan layanan Home & Office Cleaning dari PT Waschen Alora Indonesia (Alora Group) yang berpengalaman menghadirkan solusi kebersihan profesional. Kami percaya bahwa lingkungan yang bersih bukan hanya memberikan kenyamanan, tetapi juga menciptakan ruang yang lebih sehat, higienis, dan meningkatkan kualitas hidup. Dengan tenaga profesional, metode kerja modern, serta penggunaan bahan yang aman, Cleanox siap memberikan layanan pembersihan terbaik untuk rumah maupun tempat usaha Anda.",
     image: {
-      src: "/cleanox2.png",
+      src: "/cleanox2.webp",
       alt: "Cleanox team"
     }
   },
@@ -44,7 +44,7 @@ export const homeData = {
       { icon: "Clock", title: "Tepat Waktu", description: "Pengerjaan sesuai jadwal yang disepakati" }
     ],
     image: {
-      src: "/cleanox4.png",
+      src: "/cleanox4.webp",
       alt: "Teknisi Cleanox"
     }
   },

@@ -6,10 +6,10 @@ export default function TestimonialOne() {
       
       {/* Edge decoration anims (Top-Left & Bottom-Right, size-constrained) */}
       <div className="testimonial-edge-left">
-        <img src="/assets/images/kiri.png" alt="Left Decor" />
+        <img src="/assets/images/kiri.webp" alt="Left Decor" />
       </div>
       <div className="testimonial-edge-right">
-        <img src="/assets/images/kanan.png" alt="Right Decor" />
+        <img src="/assets/images/kanan.webp" alt="Right Decor" />
       </div>
 
       <div className="container">
@@ -20,11 +20,11 @@ export default function TestimonialOne() {
               <div className="section-title text-center sec-title-animation animation-style1">
                 <div className="section-title__tagline-box" style={{ justifyContent: 'center' }}>
                   <div className="section-title__shape-1">
-                    <img src="/assets/images/shapes/section-title-shape-1.png" alt="" />
+                    <img src="/assets/images/shapes/section-title-shape-1.webp" alt="" />
                   </div>
                   <p className="section-title__tagline">Testimonial</p>
                   <div className="section-title__shape-1">
-                    <img src="/assets/images/shapes/section-title-shape-1.png" alt="" />
+                    <img src="/assets/images/shapes/section-title-shape-1.webp" alt="" />
                   </div>
                 </div>
                 <h2 className="section-title__title title-animation">Apa Kata Pelanggan Kami</h2>
@@ -36,11 +36,11 @@ export default function TestimonialOne() {
                   <div className="testimonial-one__single" style={{ display: 'block', height: '100%' }}>
                     <div className="testimonial-one__single-bg-box">
                       <div className="testimonial-one__single-bg"
-                        style={{ backgroundImage: 'url(/assets/images/backgrounds/testimonial-one-single-bg-1.jpg)' }}>
+                        style={{ backgroundImage: 'url(/assets/images/backgrounds/testimonial-one-single-bg-1.webp)' }}>
                       </div>
                     </div>
                     <div className="testimonial-one__shape-1">
-                      <img src="/assets/images/shapes/testimonial-one-shape-1.png" alt="" />
+                      <img src="/assets/images/shapes/testimonial-one-shape-1.webp" alt="" />
                     </div>
                     <div className="testimonial-one__single-top">
                       <div className="testimonial-one__ratting">
@@ -67,11 +67,11 @@ export default function TestimonialOne() {
                   <div className="testimonial-one__single" style={{ display: 'block', height: '100%' }}>
                     <div className="testimonial-one__single-bg-box">
                       <div className="testimonial-one__single-bg"
-                        style={{ backgroundImage: 'url(/assets/images/backgrounds/testimonial-one-single-bg-1.jpg)' }}>
+                        style={{ backgroundImage: 'url(/assets/images/backgrounds/testimonial-one-single-bg-1.webp)' }}>
                       </div>
                     </div>
                     <div className="testimonial-one__shape-1">
-                      <img src="/assets/images/shapes/testimonial-one-shape-1.png" alt="" />
+                      <img src="/assets/images/shapes/testimonial-one-shape-1.webp" alt="" />
                     </div>
                     <div className="testimonial-one__single-top">
                       <div className="testimonial-one__ratting">
@@ -98,11 +98,11 @@ export default function TestimonialOne() {
                   <div className="testimonial-one__single" style={{ display: 'block', height: '100%' }}>
                     <div className="testimonial-one__single-bg-box">
                       <div className="testimonial-one__single-bg"
-                        style={{ backgroundImage: 'url(/assets/images/backgrounds/testimonial-one-single-bg-1.jpg)' }}>
+                        style={{ backgroundImage: 'url(/assets/images/backgrounds/testimonial-one-single-bg-1.webp)' }}>
                       </div>
                     </div>
                     <div className="testimonial-one__shape-1">
-                      <img src="/assets/images/shapes/testimonial-one-shape-1.png" alt="" />
+                      <img src="/assets/images/shapes/testimonial-one-shape-1.webp" alt="" />
                     </div>
                     <div className="testimonial-one__single-top">
                       <div className="testimonial-one__ratting">

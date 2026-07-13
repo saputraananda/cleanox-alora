@@ -17,23 +17,23 @@ export default function WhyChooseOne() {
   return (
     <section className="why-choose-one" style={{ position: 'relative', background: 'linear-gradient(135deg, rgba(224, 242, 254, 0.4) 0%, rgba(220, 252, 231, 0.4) 100%)' }}>
       <div className="why-choose-one__shape-two">
-        <img src="/assets/images/shapes/why-choose-one-shape-2.png" alt="" />
+        <img src="/assets/images/shapes/why-choose-one-shape-2.webp" alt="" />
       </div>
       <div className="why-choose-one__shape-three">
-        <img src="/assets/images/shapes/why-choose-one-shape-3.png" alt="" />
+        <img src="/assets/images/shapes/why-choose-one-shape-3.webp" alt="" />
       </div>
       <div className="why-choose-one__shape-4">
-        <img src="/assets/images/shapes/why-choose-one-shape-4.png" alt="" />
+        <img src="/assets/images/shapes/why-choose-one-shape-4.webp" alt="" />
       </div>
       <div className="container">
         <div className="section-title text-center sec-title-animation animation-style1">
           <div className="section-title__tagline-box">
             <div className="section-title__shape-1">
-              <img src="/assets/images/shapes/section-title-shape-1.png" alt="" />
+              <img src="/assets/images/shapes/section-title-shape-1.webp" alt="" />
             </div>
             <p className="section-title__tagline">Why Choose Us</p>
             <div className="section-title__shape-1">
-              <img src="/assets/images/shapes/section-title-shape-1.png" alt="" />
+              <img src="/assets/images/shapes/section-title-shape-1.webp" alt="" />
             </div>
           </div>
           <h2 className="section-title__title title-animation">Why We Are Better Than<br /> Others</h2>
@@ -55,20 +55,20 @@ export default function WhyChooseOne() {
               </div>
               <div className="why-choose-one__single-inner">
                 <div className="why-choose-one__shape-1">
-                  <img src="/assets/images/shapes/why-choose-one-shape-1.png" alt="" />
+                  <img src="/assets/images/shapes/why-choose-one-shape-1.webp" alt="" />
                 </div>
                 <h3 className="why-choose-one__title"><a href="#services">Professional Cleaning Service</a></h3>
                 <p className="why-choose-one__text">Ditangani oleh teknisi profesional dengan standar kerja yang konsisten untuk hasil bersih, rapi, dan higienis.</p>
               </div>
               <div className="why-choose-one__single-hover-inner">
                 <div className="why-choose-one__single-hover-shape-1 zoominout">
-                  <img src="/assets/images/shapes/why-choose-one-single-hover-shape-1.png" alt="" />
+                  <img src="/assets/images/shapes/why-choose-one-single-hover-shape-1.webp" alt="" />
                 </div>
                 <div className="why-choose-one__single-hover-shape-2 zoominout">
-                  <img src="/assets/images/shapes/why-choose-one-single-hover-shape-2.png" alt="" />
+                  <img src="/assets/images/shapes/why-choose-one-single-hover-shape-2.webp" alt="" />
                 </div>
                 <div className="why-choose-one__single-hover-inner-bg"
-                  style={{ backgroundImage: 'url(/assets/images/backgrounds/why-choose-one-single-inner-bg.jpg)' }}>
+                  style={{ backgroundImage: 'url(/assets/images/backgrounds/why-choose-one-single-inner-bg.webp)' }}>
                 </div>
                 <h3 className="why-choose-one__hover-title"><a href="#services">Professional Cleaning Service</a></h3>
                 <p className="why-choose-one__hover-text">Ditangani oleh teknisi profesional dengan standar kerja yang konsisten untuk hasil bersih, rapi, dan higienis.</p>
@@ -93,20 +93,20 @@ export default function WhyChooseOne() {
               </div>
               <div className="why-choose-one__single-inner">
                 <div className="why-choose-one__shape-1">
-                  <img src="/assets/images/shapes/why-choose-one-shape-1.png" alt="" />
+                  <img src="/assets/images/shapes/why-choose-one-shape-1.webp" alt="" />
                 </div>
                 <h3 className="why-choose-one__title"><a href="#services">Modern Cleaning Equipment</a></h3>
                 <p className="why-choose-one__text">Menggunakan peralatan modern dan metode kerja efektif agar proses pembersihan lebih maksimal dan efisien.</p>
               </div>
               <div className="why-choose-one__single-hover-inner">
                 <div className="why-choose-one__single-hover-shape-1 zoominout">
-                  <img src="/assets/images/shapes/why-choose-one-single-hover-shape-1.png" alt="" />
+                  <img src="/assets/images/shapes/why-choose-one-single-hover-shape-1.webp" alt="" />
                 </div>
                 <div className="why-choose-one__single-hover-shape-2 zoominout">
-                  <img src="/assets/images/shapes/why-choose-one-single-hover-shape-2.png" alt="" />
+                  <img src="/assets/images/shapes/why-choose-one-single-hover-shape-2.webp" alt="" />
                 </div>
                 <div className="why-choose-one__single-hover-inner-bg"
-                  style={{ backgroundImage: 'url(/assets/images/backgrounds/why-choose-one-single-inner-bg.jpg)' }}>
+                  style={{ backgroundImage: 'url(/assets/images/backgrounds/why-choose-one-single-inner-bg.webp)' }}>
                 </div>
                 <h3 className="why-choose-one__hover-title"><a href="#services">Modern Cleaning Equipment</a></h3>
                 <p className="why-choose-one__hover-text">Menggunakan peralatan modern dan metode kerja efektif agar proses pembersihan lebih maksimal dan efisien.</p>
@@ -131,20 +131,20 @@ export default function WhyChooseOne() {
               </div>
               <div className="why-choose-one__single-inner">
                 <div className="why-choose-one__shape-1">
-                  <img src="/assets/images/shapes/why-choose-one-shape-1.png" alt="" />
+                  <img src="/assets/images/shapes/why-choose-one-shape-1.webp" alt="" />
                 </div>
                 <h3 className="why-choose-one__title"><a href="#services">Safe Cleaning Solution</a></h3>
                 <p className="why-choose-one__text">Memakai bahan pembersih yang aman, berkualitas, dan ramah digunakan untuk rumah maupun area komersial.</p>
               </div>
               <div className="why-choose-one__single-hover-inner">
                 <div className="why-choose-one__single-hover-shape-1 zoominout">
-                  <img src="/assets/images/shapes/why-choose-one-single-hover-shape-1.png" alt="" />
+                  <img src="/assets/images/shapes/why-choose-one-single-hover-shape-1.webp" alt="" />
                 </div>
                 <div className="why-choose-one__single-hover-shape-2 zoominout">
-                  <img src="/assets/images/shapes/why-choose-one-single-hover-shape-2.png" alt="" />
+                  <img src="/assets/images/shapes/why-choose-one-single-hover-shape-2.webp" alt="" />
                 </div>
                 <div className="why-choose-one__single-hover-inner-bg"
-                  style={{ backgroundImage: 'url(/assets/images/backgrounds/why-choose-one-single-inner-bg.jpg)' }}>
+                  style={{ backgroundImage: 'url(/assets/images/backgrounds/why-choose-one-single-inner-bg.webp)' }}>
                 </div>
                 <h3 className="why-choose-one__hover-title"><a href="#services">Safe Cleaning Solution</a></h3>
                 <p className="why-choose-one__hover-text">Memakai bahan pembersih yang aman, berkualitas, dan ramah digunakan untuk rumah maupun area komersial.</p>

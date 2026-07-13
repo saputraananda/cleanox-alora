@@ -42,14 +42,14 @@ Terima kasih.`;
 
   return (
     <section className="appoinment-one" id="contact" style={{ paddingTop: '150px', paddingBottom: '280px', backgroundColor: '#ffffff' }}>
-      <div className="appoinment-one__shape-1 float-bob-y" style={{ backgroundImage: 'url(/assets/images/shapes/appoinment-one-shape-1.png)', filter: 'brightness(0) saturate(100%) invert(11%) sepia(90%) saturate(1983%) hue-rotate(194deg) brightness(88%) contrast(101%)', opacity: 1, zIndex: 1 }}></div>
+      <div className="appoinment-one__shape-1 float-bob-y" style={{ backgroundImage: 'url(/assets/images/shapes/appoinment-one-shape-1.webp)', filter: 'brightness(0) saturate(100%) invert(11%) sepia(90%) saturate(1983%) hue-rotate(194deg) brightness(88%) contrast(101%)', opacity: 1, zIndex: 1 }}></div>
       <div className="container">
         <div className="row">
           <div className="col-xl-5 col-lg-6">
             <div className="appoinment-one__left wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
               <div className="appoinment-one__form-inner" style={{ backgroundColor: '#012d59', borderRadius: '24px', boxShadow: '0 20px 40px rgba(1, 45, 89, 0.15)', padding: '50px 40px' }}>
                 <div className="appoinment-one__form-shape-1 zoominout">
-                  <img src="/assets/images/shapes/appoinment-one-form-shape-1.png" alt="" />
+                  <img src="/assets/images/shapes/appoinment-one-form-shape-1.webp" alt="" />
                 </div>
                 <h3 className="appoinment-one__form-title" style={{ color: '#ffffff', fontWeight: '600' }}>Free Consultation</h3>
                 <form onSubmit={handleSubmit} className="default-form1 appoinment-one__form">

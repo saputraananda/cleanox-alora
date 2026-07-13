@@ -2,10 +2,10 @@ export default function AboutOne() {
   return (
     <section className="about-one">
       <div className="about-one__shape-3 float-bob-x">
-        <img src="/assets/images/shapes/about-one-shape-3.png" alt="" />
+        <img src="/assets/images/shapes/about-one-shape-3.webp" alt="" />
       </div>
       <div className="about-one__shape-4 float-bob-y">
-        <img src="/assets/images/shapes/about-one-shape-4.png" alt="" />
+        <img src="/assets/images/shapes/about-one-shape-4.webp" alt="" />
       </div>
       <div className="container">
         <div className="row">
@@ -16,7 +16,7 @@ export default function AboutOne() {
               </div>
               <div className="about-one__experience">
                 <div className="about-one__experience-shape-1 zoominout">
-                  <img src="/assets/images/shapes/about-one-experience-shape-1.png" alt="" />
+                  <img src="/assets/images/shapes/about-one-experience-shape-1.webp" alt="" />
                 </div>
                 <div className="about-one__count-box count-box">
                   <div className="about-one__count">
@@ -33,17 +33,17 @@ export default function AboutOne() {
             <div className="about-one__right">
               <div className="about-one__img-2 wow slideInRight" data-wow-delay="100ms"
                 data-wow-duration="2500ms">
-                <img src="/assets/images/cleanox3.png" alt="" />
+                <img src="/assets/images/cleanox3.webp" alt="" />
                 <div className="about-one__shape-1">
                   <div className="about-one__shape-2 zoominout">
-                    <img src="/assets/images/shapes/about-one-shape-2.png" alt="" />
+                    <img src="/assets/images/shapes/about-one-shape-2.webp" alt="" />
                   </div>
                 </div>
               </div>
               <div className="section-title text-left sec-title-animation animation-style1">
                 <div className="section-title__tagline-box">
                   <div className="section-title__shape-1">
-                    <img src="/assets/images/shapes/section-title-shape-1.png" alt="" />
+                    <img src="/assets/images/shapes/section-title-shape-1.webp" alt="" />
                   </div>
                   <p className="section-title__tagline">ABOUT CLEANOX</p>
                 </div>
