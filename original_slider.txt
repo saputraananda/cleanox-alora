@@ -1,0 +1,357 @@
+Created At: 2026-07-12T21:45:23Z
+Completed At: 2026-07-12T21:45:23Z
+File Path: `file:///c:/Users/Marsya%20Halya%20Alfrida/.gemini/antigravity/scratch/waschen-cleanox-next/src/components/sections/MainSliderOne.tsx`
+Total Lines: 349
+Total Bytes: 10775
+Showing lines 1 to 349
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+1: export default function MainSliderOne() {
+2:   return (
+3:     <section className="main-slider-one">
+4:       <div className="container">
+5:         <div className="row align-items-center">
+6:           <div className="col-xl-6">
+7:             <div className="main-slider-one__content">
+8:               <div className="main-slider-one__tag">
+9:                 <div className="main-slider-one__tag-icon">
+10:                   <img src="/assets/images/icons/star.png" alt="Star" />
+11:                 </div>
+12:                 <span>Cleanox - Premium Cleaning Services</span>
+13:               </div>
+14:               <h1 className="main-slider-one__title">
+15:                 Professional Home &amp; Office
+16:                 <br />
+17:                 Cleaning Solution
+18:               </h1>
+19:               <p className="main-slider-one__text">
+20:                 Cleanox menghadirkan layanan pembersihan profesional dengan tenaga ahli, peralatan modern, dan standar kebersihan terbaik untuk menciptakan ruangan yang lebih bersih dan nyaman.
+21:               </p>
+22:               <div className="main-slider-one__features">
+23:                 <div className="main-slider-one__feature">
+24:                   <div className="main-slider-one__feature-icon">
+25:                     <span className="fas fa-check-circle"></span>
+26:                   </div>
+27:                   <span>Teknisi Profesional</span>
+28:                 </div>
+29:                 <div className="main-slider-one__feature">
+30:                   <div className="main-slider-one__feature-icon">
+31:                     <span className="fas fa-check-circle"></span>
+32:                   </div>
+33:                   <span>Peralatan Modern</span>
+34:                 </div>
+35:                 <div className="main-slider-one__feature">
+36:                   <div className="main-slider-one__feature-icon">
+37:                     <span className="fas fa-check-circle"></span>
+38:                   </div>
+39:                   <span>Pelayanan Terpercaya</span>
+40:                 </div>
+41:               </div>
+42:               <div className="main-slider-one__btns">
+43:                 <a href="https://wa.me/6285122333381" className="main-slider-one__btn main-slider-one__btn--primary">
+44:                   <span className="main-slider-one__btn-icon">
+45:                     <span className="fas fa-phone"></span>
+46:                   </span>
+47:                   Konsultasi Gratis
+48:                   <span className="main-slider-one__btn-arrow">
+49:                     <span className="fas fa-arrow-right"></span>
+50:                   </span>
+51:                 </a>
+52:                 <a href="#services" className="main-slider-one__btn main-slider-one__btn--secondary">
+53:                   <span className="main-slider-one__btn-icon">
+54:                     <span className="fas fa-calendar"></span>
+55:                   </span>
+56:                   Lihat Layanan
+57:                 </a>
+58:               </div>
+59:             </div>
+60:           </div>
+61:           <div className="col-xl-6">
+62:             <div className="main-slider-one__image-wrapper">
+63:               <div className="main-slider-one__image">
+64:                 <img src="/hero.png" alt="Cleaning Service Professionals" />
+65:               </div>
+66:               <div className="main-slider-one__floating-card main-slider-one__floating-card--top-right">
+67:                 <div className="main-slider-one__floating-card-icon">
+68:                   <span className="fas fa-users"></span>
+69:                 </div>
+70:                 <div className="main-slider-one__floating-card-content">
+71:                   <h4>Teknisi Profesional</h4>
+72:                   <p>Tim teknisi berpengalaman dan terlatih</p>
+73:                 </div>
+74:               </div>
+75:               <div className="main-slider-one__floating-card main-slider-one__floating-card--bottom-left">
+76:                 <div className="main-slider-one__floating-card-icon">
+77:                   <span className="fas fa-bolt"></span>
+78:                 </div>
+79:                 <div className="main-slider-one__floating-card-content">
+80:                   <h4>Hasil Lebih Higienis</h4>
+81:                   <p>Standar kebersihan yang tinggi</p>
+82:                 </div>
+83:               </div>
+84:               <div className="main-slider-one__floating-card main-slider-one__floating-card--bottom-right">
+85:                 <div className="main-slider-one__floating-card-icon">
+86:                   <span className="fas fa-heart"></span>
+87:                 </div>
+88:                 <div className="main-slider-one__floating-card-content">
+89:                   <h4>Kepuasan Pelanggan</h4>
+90:                   <p>Prioritas utama adalah kepuasan Anda</p>
+91:                 </div>
+92:               </div>
+93:             </div>
+94:           </div>
+95:         </div>
+96:       </div>
+97:       <style jsx>{`
+98:         .main-slider-one {
+99:           position: relative;
+100:           padding: 120px 0;
+101:           background: linear-gradient(135deg, #ffffff 0%, #f0f9ff 100%);
+102:           overflow: hidden;
+103:         }
+104: 
+105:         .main-slider-one::before,
+106:         .main-slider-one::after {
+107:           content: '';
+108:           position: absolute;
+109:           border-radius: 50%;
+110:           filter: blur(100px);
+111:           opacity: 0.5;
+112:         }
+113: 
+114:         .main-slider-one::before {
+115:           width: 500px;
+116:           height: 500px;
+117:           background: #c7f2ff;
+118:           top: -100px;
+119:           left: -200px;
+120:         }
+121: 
+122:         .main-slider-one::after {
+123:           width: 600px;
+124:           height: 600px;
+125:           background: #dff6ff;
+126:           bottom: -150px;
+127:           right: -250px;
+128:         }
+129: 
+130:         .main-slider-one__tag {
+131:           display: inline-flex;
+132:           align-items: center;
+133:           gap: 12px;
+134:           background: white;
+135:           padding: 12px 24px;
+136:           border-radius: 50px;
+137:           box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+138:           margin-bottom: 32px;
+139:         }
+140: 
+141:         .main-slider-one__tag-icon {
+142:           width: 36px;
+143:           height: 36px;
+144:           background: #e0f2fe;
+145:           border-radius: 50%;
+146:           display: flex;
+147:           align-items: center;
+148:           justify-content: center;
+149:         }
+150: 
+151:         .main-slider-one__tag-icon img {
+152:           width: 20px;
+153:           height: 20px;
+154:         }
+155: 
+156:         .main-slider-one__title {
+157:           font-size: 56px;
+158:           font-weight: 800;
+159:           color: #0f172a;
+160:           line-height: 1.1;
+161:           margin-bottom: 24px;
+162:         }
+163: 
+164:         .main-slider-one__text {
+165:           font-size: 18px;
+166:           color: #64748b;
+167:           line-height: 1.7;
+168:           margin-bottom: 40px;
+169:         }
+170: 
+171:         .main-slider-one__features {
+172:           display: flex;
+173:           gap: 24px;
+174:           margin-bottom: 40px;
+175:           flex-wrap: wrap;
+176:         }
+177: 
+178:         .main-slider-one__feature {
+179:           display: flex;
+180:           align-items: center;
+181:           gap: 12px;
+182:           background: white;
+183:           padding: 12px 20px;
+184:           border-radius: 50px;
+185:           box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+186:         }
+187: 
+188:         .main-slider-one__feature-icon {
+189:           color: #10b981;
+190:           font-size: 20px;
+191:         }
+192: 
+193:         .main-slider-one__btns {
+194:           display: flex;
+195:           gap: 16px;
+196:           flex-wrap: wrap;
+197:         }
+198: 
+199:         .main-slider-one__btn {
+200:           display: inline-flex;
+201:           align-items: center;
+202:           gap: 12px;
+203:           padding: 16px 32px;
+204:           border-radius: 16px;
+205:           font-size: 16px;
+206:           font-weight: 600;
+207:           text-decoration: none;
+208:           transition: all 0.3s ease;
+209:         }
+210: 
+211:         .main-slider-one__btn--primary {
+212:           background: #0f4c75;
+213:           color: white;
+214:           box-shadow: 0 10px 30px rgba(15, 76, 117, 0.3);
+215:         }
+216: 
+217:         .main-slider-one__btn--primary:hover {
+218:           background: #0a3d62;
+219:           transform: translateY(-2px);
+220:         }
+221: 
+222:         .main-slider-one__btn--secondary {
+223:           background: #dbeafe;
+224:           color: #1e40af;
+225:         }
+226: 
+227:         .main-slider-one__btn--secondary:hover {
+228:           background: #bfdbfe;
+229:         }
+230: 
+231:         .main-slider-one__image-wrapper {
+232:           position: relative;
+233:           display: flex;
+234:           justify-content: center;
+235:         }
+236: 
+237:         .main-slider-one__image img {
+238:           width: 100%;
+239:           max-width: 600px;
+240:           border-radius: 24px;
+241:           box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+242:         }
+243: 
+244:         .main-slider-one__floating-card {
+245:           position: absolute;
+246:           background: white;
+247:           padding: 16px 20px;
+248:           border-radius: 16px;
+249:           box-shadow: 0 10px 40px rgba(0, 0, 0, 0.12);
+250:           display: flex;
+251:           align-items: center;
+252:           gap: 14px;
+253:         }
+254: 
+255:         .main-slider-one__floating-card--top-right {
+256:           top: 40px;
+257:           right: -20px;
+258:           animation: float 3s ease-in-out infinite;
+259:         }
+260: 
+261:         .main-slider-one__floating-card--bottom-left {
+262:           bottom: 80px;
+263:           left: -30px;
+264:           animation: float 4s ease-in-out infinite;
+265:           animation-delay: 1s;
+266:         }
+267: 
+268:         .main-slider-one__floating-card--bottom-right {
+269:           bottom: 20px;
+270:           right: 20px;
+271:           animation: float 3.5s ease-in-out infinite;
+272:           animation-delay: 0.5s;
+273:         }
+274: 
+275:         .main-slider-one__floating-card-icon {
+276:           width: 48px;
+277:           height: 48px;
+278:           border-radius: 50%;
+279:           display: flex;
+280:           align-items: center;
+281:           justify-content: center;
+282:           font-size: 20px;
+283:         }
+284: 
+285:         .main-slider-one__floating-card--top-right .main-slider-one__floating-card-icon {
+286:           background: #dbeafe;
+287:           color: #1e40af;
+288:         }
+289: 
+290:         .main-slider-one__floating-card--bottom-left .main-slider-one__floating-card-icon {
+291:           background: #e0f2fe;
+292:           color: #0369a1;
+293:         }
+294: 
+295:         .main-slider-one__floating-card--bottom-right .main-slider-one__floating-card-icon {
+296:           background: #f1f5f9;
+297:           color: #475569;
+298:         }
+299: 
+300:         .main-slider-one__floating-card-content h4 {
+301:           font-size: 16px;
+302:           font-weight: 700;
+303:           color: #1e293b;
+304:           margin: 0;
+305:         }
+306: 
+307:         .main-slider-one__floating-card-content p {
+308:           font-size: 13px;
+309:           color: #64748b;
+310:           margin: 4px 0 0;
+311:         }
+312: 
+313:         @keyframes float {
+314:           0%, 100% {
+315:             transform: translateY(0);
+316:           }
+317:           50% {
+318:             transform: translateY(-15px);
+319:           }
+320:         }
+321: 
+322:         @media (max-width: 1024px) {
+323:           .main-slider-one {
+324:             padding: 80px 0;
+325:           }
+326:           
+327:           .main-slider-one__title {
+328:             font-size: 42px;
+329:           }
+330:         }
+331: 
+332:         @media (max-width: 768px) {
+333:           .main-slider-one {
+334:             padding: 60px 0;
+335:           }
+336:           
+337:           .main-slider-one__title {
+338:             font-size: 32px;
+339:           }
+340: 
+341:           .main-slider-one__floating-card {
+342:             display: none;
+343:           }
+344:         }
+345:       `}</style>
+346:     </section>
+347:   );
+348: }
+349: 
+The above content shows the entire, complete file contents of the requested file.

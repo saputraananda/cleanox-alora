@@ -1,0 +1,215 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Keyframes ─────────────────────────────────────────── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(40px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to   { opacity: 1; transform: scale(1); }
+}
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-15px); }
+}
+@keyframes float-medium {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-10px); }
+}
+@keyframes float-fast {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-8px); }
+}
+@keyframes shine {
+  0%   { transform: translateX(-100%) skewX(-12deg); }
+  100% { transform: translateX(200%) skewX(-12deg); }
+}
+@keyframes ripple {
+  0%   { transform: scale(0.8); opacity: 1; }
+  100% { transform: scale(2.4); opacity: 0; }
+}
+@keyframes zoom-in-out {
+  0%, 100% { transform: scale(1); }
+  50%       { transform: scale(1.15); }
+}
+@keyframes slide-left {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+@keyframes scaleY-in {
+  from { transform: scaleY(0); }
+  to   { transform: scaleY(1); }
+}
+
+/* ─── Utility animation classes ─────────────────────────── */
+.animate-fade-up        { animation: fadeUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards; opacity: 0; }
+.animate-scale-in       { animation: scaleIn 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards; opacity: 0; }
+.animate-fade-in        { animation: fadeIn 0.6s ease-out forwards; opacity: 0; }
+.animate-float-slow     { animation: float-slow 4s ease-in-out infinite; }
+.animate-float-medium   { animation: float-medium 3s ease-in-out infinite; }
+.animate-float-fast     { animation: float-fast 2.5s ease-in-out infinite; }
+.animate-shine          { animation: shine 2s ease-in-out infinite; }
+.animate-ripple         { animation: ripple 3s ease-out infinite; }
+.animate-zoom-in-out    { animation: zoom-in-out 3s ease-in-out infinite; }
+.animate-slide-left     { animation: slide-left 20s linear infinite; }
+
+.animate-delay-100 { animation-delay: 0.1s; }
+.animate-delay-200 { animation-delay: 0.2s; }
+.animate-delay-300 { animation-delay: 0.3s; }
+.animate-delay-400 { animation-delay: 0.4s; }
+.animate-delay-500 { animation-delay: 0.5s; }
+.animate-delay-600 { animation-delay: 0.6s; }
+.animate-delay-700 { animation-delay: 0.7s; }
+
+.in-view {
+  opacity: 1 !important;
+  animation: fadeUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+/* ─── Custom transitions ────────────────────────────────── */
+.transition-all-custom       { transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+.transition-transform-custom { transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+.transition-shadow-custom    { transition: box-shadow 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+
+/* ─── Cleniq-style hover cards ──────────────────────────── */
+.hover-scale-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: var(--tw-bg-opacity, 1);
+  transform: scaleX(0.7) rotateX(20deg);
+  opacity: 0;
+  transition: all 0.4s linear;
+  z-index: -1;
+}
+.hover-scale-bg:hover::before {
+  transform: scaleX(1) rotateX(0deg);
+  opacity: 1;
+}
+
+/* ─── Sliding text track ────────────────────────────────── */
+.sliding-track {
+  display: flex;
+  width: fit-content;
+  animation: slide-left 28s linear infinite;
+}
+.sliding-track:hover { animation-play-state: paused; }
+
+/* ─── CSS Variables ──────────────────────────────────────── */
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 210 96% 18%;      /* #012d59 */
+    --primary-foreground: 210 40% 98%;
+    --secondary: 80 96% 32%;     /* #79a403 */
+    --secondary-foreground: 0 0% 100%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 80 96% 32%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 210 96% 18%;
+    --radius: 0.5rem;
+    --cleniq-base: #012d59;
+    --cleniq-accent: #79a403;
+    --cleniq-black: #121212;
+    --cleniq-dark: #010d18;
+    --cleniq-gray: #878c8f;
+    --font-sans: var(--font-poppins);
+  }
+}
+
+@layer base {
+  * { @apply border-border; }
+  body {
+    @apply bg-white text-cleniq-gray font-sans;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-sans text-cleniq-black;
+    margin: 0;
+  }
+  html { scroll-behavior: smooth; }
+}
+
+@layer utilities {
+  .text-balance { text-wrap: balance; }
+  .bg-cleniq-base    { background-color: var(--cleniq-base); }
+  .bg-cleniq-accent  { background-color: var(--cleniq-accent); }
+  .bg-cleniq-dark    { background-color: var(--cleniq-dark); }
+  .text-cleniq-base  { color: var(--cleniq-base); }
+  .text-cleniq-accent { color: var(--cleniq-accent); }
+  .text-cleniq-gray  { color: var(--cleniq-gray); }
+  .text-cleniq-black { color: var(--cleniq-black); }
+  /* Clip-path helpers */
+  .clip-diagonal-down {
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 83%);
+  }
+  .clip-diagonal-up {
+    clip-path: polygon(0 0, 100% 16%, 100% 100%, 0% 100%);
+  }
+}
+
+/* Apply rounded corners to all elements */
+* {
+  border-radius: var(--radius, 0.5rem);
+}
+
+/* Preserve 0 border-radius for pseudo-elements that shouldn't have it, but most will get rounded */
+img {
+  border-radius: var(--radius, 0.5rem);
+}
+
+button,
+input,
+select,
+textarea,
+a,
+div,
+section,
+article,
+header,
+footer,
+nav,
+aside,
+main {
+  border-radius: var(--radius, 0.5rem);
+}
+
+* {
+  font-family: var(--font-poppins), 'Poppins', sans-serif;
+}
+
+.fab, .fa-brands {
+  font-family: 'Font Awesome 5 Brands' !important;
+}
+
+.fas, .fa-solid {
+  font-family: 'Font Awesome 5 Free' !important;
+  font-weight: 900 !important;
+}
+
+.far, .fa-regular {
+  font-family: 'Font Awesome 5 Free' !important;
+  font-weight: 400 !important;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'cleniq-icons' !important;
+}
