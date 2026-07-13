@@ -8,7 +8,7 @@ export default function LocalSeoLinks() {
     "cleaning service depok", "cleaning service cibubur", "cleaning service cileungsi", 
     "cleaning service gunung putri", "cleaning service jatisampurna", "cleaning service raffles hills", 
     "cleaning service harjamukti", "cleaning service kota wisata", "cleaning service citra gran cibubur", 
-    "cleaning service legok", "cleaning service sentul", "jasa cleaning service jakarta", 
+    "cleaning service", "cleaning service sentul", "jasa cleaning service jakarta", 
     "jasa cleaning service bekasi", "jasa cleaning service bogor", "jasa cleaning service depok", 
     "jasa cleaning service cibubur", "jasa cleaning rumah jakarta", "jasa cleaning rumah bekasi", 
     "jasa cleaning rumah bogor", "jasa cleaning rumah depok", "jasa cleaning rumah cibubur", 

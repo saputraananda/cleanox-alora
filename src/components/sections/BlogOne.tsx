@@ -50,7 +50,6 @@ export default function BlogOne() {
                   </li>
                 </ul>
                 <h3 className="blog-one__title"><a href="blog-details.html">Residential Cleaning & Services for Your Home</a></h3>
-                <p className="blog-one__text">Lorem ipsum is dolor sit amet, csectetur adipiscing elit, dolore smod tempor incididunt ut labore et....</p>
                 <div className="blog-one__btn">
                   <a href="blog-details.html" className="blog-one__btn-link">Read more</a>
                 </div>
