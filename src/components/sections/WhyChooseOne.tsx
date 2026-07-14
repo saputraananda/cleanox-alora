@@ -15,7 +15,7 @@ export default function WhyChooseOne() {
   }, [isHovered]);
 
   return (
-    <section className="why-choose-one" style={{ position: 'relative', background: 'linear-gradient(135deg, rgba(224, 242, 254, 0.4) 0%, rgba(220, 252, 231, 0.4) 100%)' }}>
+    <section className="why-choose-one">
       <div className="why-choose-one__shape-two">
         <img src="/assets/images/shapes/why-choose-one-shape-2.webp" alt="" />
       </div>

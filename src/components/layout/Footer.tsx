@@ -3,6 +3,11 @@
 export default function Footer() {
   return (
     <footer className="site-footer" style={{ backgroundColor: '#012d59', color: '#ffffff', paddingBottom: '0' }}>
+      <style jsx>{`
+        .site-footer__bg-shape img {
+          filter: brightness(0) saturate(100%) invert(11%) sepia(90%) saturate(1983%) hue-rotate(194deg) brightness(88%) contrast(101%);
+        }
+      `}</style>
       <div className="site-footer__bg" style={{ backgroundColor: '#012d59', backgroundImage: 'none' }}></div>
       
       <div className="site-footer__top" style={{ paddingBottom: '60px', paddingTop: '70px', borderBottom: '1px solid rgba(255, 255, 255, 0.08)' }}>

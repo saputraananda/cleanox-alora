@@ -274,7 +274,18 @@ export default function MainSliderOne() {
             transform: none !important;
           }
           .main-slider-one__floating-card {
-            display: none;
+            position: relative !important;
+            top: auto !important;
+            right: auto !important;
+            bottom: auto !important;
+            left: auto !important;
+            margin: 10px;
+            width: calc(50% - 20px);
+          }
+          .main-slider-one__image-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
           }
         }
       `}</style>

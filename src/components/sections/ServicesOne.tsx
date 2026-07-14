@@ -1,6 +1,6 @@
 export default function ServicesOne() {
   return (
-    <section className="services-one">
+    <section className="services-one" id="services">
       <div className="services-one__bg" style={{ backgroundColor: '#ffffff', backgroundImage: 'none' }}>
       </div>
       <div className="container">

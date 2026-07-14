@@ -222,6 +222,18 @@ export default function TestimonialOne() {
           top: 15px !important;
           opacity: 0.2 !important;
         }
+        @media (max-width: 768px) {
+          .testimonial-edge-left {
+            width: 120px;
+            left: 0;
+            top: 0;
+          }
+          .testimonial-edge-right {
+            width: 120px;
+            right: 0;
+            bottom: 0;
+          }
+        }
       `}</style>
     </section>
   );

@@ -65,7 +65,7 @@ export default function Header() {
         <nav className="main-menu" style={{ backgroundColor: '#ffffff', transition: 'all 0.3s' }}>
           <div className="main-menu__wrapper" style={{ padding: '0 30px' }}>
             <div className="main-menu__wrapper-inner" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-              
+
               <div className="main-menu__left-logo" style={{ display: 'flex', alignItems: 'center' }}>
                 <a href="#home">
                   <img src="/logo-cleanox.webp" alt="Cleanox Logo" style={{ height: isScrolled ? '32px' : '42px', width: 'auto', transition: 'all 0.3s' }} />
@@ -88,10 +88,10 @@ export default function Header() {
 
               <div className="main-menu__right-btn" style={{ minWidth: '160px', display: 'flex', justifyContent: 'flex-end' }}>
                 {isScrolled && (
-                  <a 
-                    href="https://wa.me/6285122333381" 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
+                  <a
+                    href="https://wa.me/6285122333381"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="booking-btn"
                   >
                     Booking Sekarang
