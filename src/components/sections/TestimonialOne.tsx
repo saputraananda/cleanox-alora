@@ -22,7 +22,7 @@ export default function TestimonialOne() {
                   <div className="section-title__shape-1">
                     <img src="/assets/images/shapes/section-title-shape-1.webp" alt="" />
                   </div>
-                  <p className="section-title__tagline">Testimonial</p>
+                  <p className="section-title__tagline">Testimoni</p>
                   <div className="section-title__shape-1">
                     <img src="/assets/images/shapes/section-title-shape-1.webp" alt="" />
                   </div>
@@ -87,8 +87,8 @@ export default function TestimonialOne() {
                       </div>
                     </div>
                     <div className="testimonial-one__client-info">
-                      <h3>@jefryz</h3>
-                      <span>Pelanggan</span>
+                      <h3>Maryam</h3>
+                      <span>Work Mom</span>
                     </div>
                   </div>
                 </div>

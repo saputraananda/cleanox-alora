@@ -17,7 +17,7 @@ export default function ServicesOne() {
                     <img src="/assets/images/shapes/services-one-shape-2.webp" alt="" />
                   </div>
                 </div>
-                <div className="services-one__shape-3"></div>
+                <div className="services-one__shape-3" style={{ top: 'auto', bottom: '-20px', left: '0', right: '0', height: '150px', background: 'linear-gradient(to top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%)' }}></div>
                 <div className="services-one__shape-4 float-bob-y">
                   <img src="/assets/images/shapes/services-one-shape-4.webp" alt="" />
                 </div>
@@ -31,9 +31,9 @@ export default function ServicesOne() {
                   <div className="section-title__shape-1">
                     <img src="/assets/images/shapes/section-title-shape-1.webp" alt="" />
                   </div>
-                  <p className="section-title__tagline">Our Services</p>
+                  <p className="section-title__tagline">Layanan Kami</p>
                 </div>
-                <h2 className="section-title__title title-animation">Our Priority Customer<br /> Satisfaction</h2>
+                <h2 className="section-title__title title-animation">Prioritas Kami Adalah<br /> Kepuasan Pelanggan</h2>
               </div>
               <div className="services-one__services-box">
                 <ul className="services-one__list list-unstyled">
@@ -44,7 +44,7 @@ export default function ServicesOne() {
                         <div className="services-one__icon">
                           <span className="icon-shower"></span>
                         </div>
-                        <h3 className="services-one__title"><a href="#">Indoor<br /> Cleaning</a></h3>
+                        <h3 className="services-one__title"><a href="#">Pembersihan<br /> Ruangan</a></h3>
                       </div>
                     </div>
                   </li>
@@ -55,7 +55,7 @@ export default function ServicesOne() {
                         <div className="services-one__icon">
                           <span className="icon-clean-house"></span>
                         </div>
-                        <h3 className="services-one__title"><a href="#">House<br /> Cleaning</a></h3>
+                        <h3 className="services-one__title"><a href="#">Pembersihan<br /> Rumah</a></h3>
                       </div>
                     </div>
                   </li>
@@ -66,7 +66,7 @@ export default function ServicesOne() {
                         <div className="services-one__icon">
                           <span className="icon-cleaning"></span>
                         </div>
-                        <h3 className="services-one__title"><a href="#">Office<br /> Cleaning</a></h3>
+                        <h3 className="services-one__title"><a href="#">Pembersihan<br /> Kantor</a></h3>
                       </div>
                     </div>
                   </li>
@@ -77,7 +77,7 @@ export default function ServicesOne() {
                         <div className="services-one__icon">
                           <span className="icon-pipeline"></span>
                         </div>
-                        <h3 className="services-one__title"><a href="#">Plumbing<br /> Services</a></h3>
+                        <h3 className="services-one__title"><a href="#">Layanan<br /> Plumbing</a></h3>
                       </div>
                     </div>
                   </li>
@@ -88,7 +88,7 @@ export default function ServicesOne() {
                         <div className="services-one__icon">
                           <span className="icon-laundry"></span>
                         </div>
-                        <h3 className="services-one__title"><a href="#">Laundry<br /> Services</a></h3>
+                        <h3 className="services-one__title"><a href="#">Layanan<br /> Laundry</a></h3>
                       </div>
                     </div>
                   </li>
@@ -99,7 +99,7 @@ export default function ServicesOne() {
                         <div className="services-one__icon">
                           <span className="icon-sanitary"></span>
                         </div>
-                        <h3 className="services-one__title"><a href="#">Toilet<br /> Cleaning</a></h3>
+                        <h3 className="services-one__title"><a href="#">Pembersihan<br /> Toilet</a></h3>
                       </div>
                     </div>
                   </li>

@@ -29,12 +29,12 @@ export default function MainSliderOne() {
                 <div className="main-slider-one__tag-icon" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '28px', height: '28px' }}>
                   <img src="/logo-cleanox.webp" alt="Cleanox Logo" style={{ width: '28px', height: 'auto', objectFit: 'contain' }} />
                 </div>
-                <span style={{ fontSize: '13px', color: '#012d59', fontWeight: '600', letterSpacing: '0.3px' }}>Cleanox - Premium Cleaning Services</span>
+                <span style={{ fontSize: '13px', color: '#012d59', fontWeight: '600', letterSpacing: '0.3px' }}>Cleanox - Layanan Pembersihan Premium</span>
               </div>
 
               {/* Title */}
               <h1 className="main-slider-one__title" style={{ fontSize: '42px', fontWeight: '800', color: '#012d59', lineHeight: '1.25', marginBottom: '28px', fontFamily: 'var(--font-poppins), sans-serif' }}>
-                Profesional Home &amp;<br /> Office Cleaning Solution
+                Solusi Pembersihan Rumah &amp;<br /> Kantor Profesional
               </h1>
 
               {/* Description */}
@@ -274,18 +274,7 @@ export default function MainSliderOne() {
             transform: none !important;
           }
           .main-slider-one__floating-card {
-            position: relative !important;
-            top: auto !important;
-            right: auto !important;
-            bottom: auto !important;
-            left: auto !important;
-            margin: 10px;
-            width: calc(50% - 20px);
-          }
-          .main-slider-one__image-wrapper {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
+            display: none !important;
           }
         }
       `}</style>

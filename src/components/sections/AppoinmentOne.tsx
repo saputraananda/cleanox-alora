@@ -6,8 +6,8 @@ export default function AppoinmentOne() {
   const [formData, setFormData] = useState({
     fullName: '',
     phoneNumber: '',
-    service: 'General Cleaning',
-    propertyType: 'House',
+    service: '',
+    propertyType: '',
     additionalDetails: ''
   });
 
@@ -51,7 +51,7 @@ Terima kasih.`;
                 <div className="appoinment-one__form-shape-1 zoominout">
                   <img src="/assets/images/shapes/appoinment-one-form-shape-1.webp" alt="" />
                 </div>
-                <h3 className="appoinment-one__form-title" style={{ color: '#ffffff', fontWeight: '600' }}>Free Consultation</h3>
+                <h3 className="appoinment-one__form-title" style={{ color: '#ffffff', fontWeight: '600' }}>Konsultasi Sekarang</h3>
                 <form onSubmit={handleSubmit} className="default-form1 appoinment-one__form">
                   <div className="row">
                     <div className="col-xl-12">
@@ -59,7 +59,7 @@ Terima kasih.`;
                         <input 
                           type="text" 
                           name="fullName" 
-                          placeholder="Enter your full name" 
+                          placeholder="Masukkan nama lengkap Anda" 
                           value={formData.fullName} 
                           onChange={handleChange} 
                           required 
@@ -88,17 +88,18 @@ Terima kasih.`;
                             className="selectmenu wide" 
                             value={formData.service} 
                             onChange={handleChange} 
-                            style={{ width: '100%', padding: '15px', border: 'none', background: 'transparent', color: '#ffffff', outline: 'none' }}
+                            style={{ width: '100%', padding: '15px', border: 'none', background: 'transparent', color: formData.service ? '#ffffff' : 'rgba(255,255,255,0.6)', outline: 'none' }}
                           >
+                            <option value="" style={{ color: '#000000' }}>Pilih Layanan</option>
                             <option value="General Cleaning" style={{ color: '#000000' }}>General Cleaning</option>
                             <option value="Deep Cleaning" style={{ color: '#000000' }}>Deep Cleaning</option>
                             <option value="Vacuum Hydro Cleaning" style={{ color: '#000000' }}>Vacuum Hydro Cleaning</option>
-                            <option value="Sofa Cleaning" style={{ color: '#000000' }}>Sofa Cleaning</option>
-                            <option value="Mattress Cleaning" style={{ color: '#000000' }}>Mattress Cleaning</option>
-                            <option value="Carpet Cleaning" style={{ color: '#000000' }}>Carpet Cleaning</option>
-                            <option value="Curtain Cleaning" style={{ color: '#000000' }}>Curtain Cleaning</option>
-                            <option value="Office Cleaning" style={{ color: '#000000' }}>Office Cleaning</option>
-                            <option value="Others" style={{ color: '#000000' }}>Others</option>
+                            <option value="Sofa Cleaning" style={{ color: '#000000' }}>Pembersihan Sofa</option>
+                            <option value="Mattress Cleaning" style={{ color: '#000000' }}>Pembersihan Kasur</option>
+                            <option value="Carpet Cleaning" style={{ color: '#000000' }}>Pembersihan Karpet</option>
+                            <option value="Curtain Cleaning" style={{ color: '#000000' }}>Pembersihan Gorden</option>
+                            <option value="Office Cleaning" style={{ color: '#000000' }}>Pembersihan Kantor</option>
+                            <option value="Lainnya" style={{ color: '#000000' }}>Lainnya</option>
                           </select>
                         </div>
                       </div>
@@ -111,18 +112,19 @@ Terima kasih.`;
                             className="selectmenu wide" 
                             value={formData.propertyType} 
                             onChange={handleChange} 
-                            style={{ width: '100%', padding: '15px', border: 'none', background: 'transparent', color: '#ffffff', outline: 'none' }}
+                            style={{ width: '100%', padding: '15px', border: 'none', background: 'transparent', color: formData.propertyType ? '#ffffff' : 'rgba(255,255,255,0.6)', outline: 'none' }}
                           >
-                            <option value="House" style={{ color: '#000000' }}>House</option>
-                            <option value="Apartment" style={{ color: '#000000' }}>Apartment</option>
-                            <option value="Office" style={{ color: '#000000' }}>Office</option>
-                            <option value="Shop House (Ruko)" style={{ color: '#000000' }}>Shop House (Ruko)</option>
+                            <option value="" style={{ color: '#000000' }}>Pilih Jenis Properti</option>
+                            <option value="Rumah" style={{ color: '#000000' }}>Rumah</option>
+                            <option value="Apartemen" style={{ color: '#000000' }}>Apartemen</option>
+                            <option value="Kantor" style={{ color: '#000000' }}>Kantor</option>
+                            <option value="Ruko" style={{ color: '#000000' }}>Ruko</option>
                             <option value="Cafe" style={{ color: '#000000' }}>Cafe</option>
-                            <option value="Restaurant" style={{ color: '#000000' }}>Restaurant</option>
+                            <option value="Restoran" style={{ color: '#000000' }}>Restoran</option>
                             <option value="Hotel" style={{ color: '#000000' }}>Hotel</option>
-                            <option value="Warehouse" style={{ color: '#000000' }}>Warehouse</option>
+                            <option value="Gudang" style={{ color: '#000000' }}>Gudang</option>
                             <option value="Villa" style={{ color: '#000000' }}>Villa</option>
-                            <option value="Others" style={{ color: '#000000' }}>Others</option>
+                            <option value="Lainnya" style={{ color: '#000000' }}>Lainnya</option>
                           </select>
                         </div>
                       </div>
@@ -131,7 +133,7 @@ Terima kasih.`;
                       <div className="appoinment-one__input-box text-message-box">
                         <textarea 
                           name="additionalDetails" 
-                          placeholder="Tell us about your cleaning needs..." 
+                          placeholder="Ceritakan tentang kebutuhan pembersihan Anda..." 
                           value={formData.additionalDetails} 
                           onChange={handleChange}
                           style={{ borderRadius: '8px', border: '1px solid rgba(255, 255, 255, 0.2)', backgroundColor: 'rgba(255, 255, 255, 0.05)', color: '#ffffff' }}
@@ -141,7 +143,7 @@ Terima kasih.`;
                     <div className="col-xl-12">
                       <div className="appoinment-one__btn-box">
                         <button type="submit" className="thm-btn appoinment-one__btn" style={{ borderRadius: '8px' }}>
-                          Consult via WhatsApp <span></span> <span></span> <span></span> <span></span>
+                          Konsultasi via WhatsApp <span></span> <span></span> <span></span> <span></span>
                           <span></span>
                         </button>
                       </div>
@@ -178,6 +180,36 @@ Terima kasih.`;
         }
         :global(.appoinment-one__bg-two-box) {
           display: none !important;
+        }
+        :global(.appoinment-one__form select) {
+          appearance: none;
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3e%3cpath d='M7 10l5 5 5-5z'/%3e%3c/svg%3e");
+          background-repeat: no-repeat;
+          background-position: right 12px center;
+          background-size: 16px;
+          padding-right: 40px;
+          cursor: pointer;
+          position: relative;
+          z-index: 10;
+        }
+        :global(.appoinment-one__form select option) {
+          color: #000;
+        }
+        :global(.appoinment-one__form .select-box) {
+          position: relative;
+          z-index: 9;
+        }
+        @media (max-width: 768px) {
+          :global(.appoinment-one__btn) {
+            font-size: 12px;
+            padding: 14px 18px;
+            min-height: auto;
+          }
+          :global(.appoinment-one__form select) {
+            padding: 15px 40px 15px 15px;
+          }
         }
       `}</style>
     </section>

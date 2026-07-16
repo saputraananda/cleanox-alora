@@ -31,12 +31,12 @@ export default function WhyChooseOne() {
             <div className="section-title__shape-1">
               <img src="/assets/images/shapes/section-title-shape-1.webp" alt="" />
             </div>
-            <p className="section-title__tagline">Why Choose Us</p>
+            <p className="section-title__tagline">Mengapa Memilih Kami</p>
             <div className="section-title__shape-1">
               <img src="/assets/images/shapes/section-title-shape-1.webp" alt="" />
             </div>
           </div>
-          <h2 className="section-title__title title-animation">Why We Are Better Than<br /> Others</h2>
+          <h2 className="section-title__title title-animation">Mengapa Kami Lebih Baik<br /> Daripada Yang Lain</h2>
         </div>
         <div className="row">
           
@@ -57,7 +57,7 @@ export default function WhyChooseOne() {
                 <div className="why-choose-one__shape-1">
                   <img src="/assets/images/shapes/why-choose-one-shape-1.webp" alt="" />
                 </div>
-                <h3 className="why-choose-one__title"><a href="#services">Professional Cleaning Service</a></h3>
+                <h3 className="why-choose-one__title"><a href="#services">Layanan Pembersihan Profesional</a></h3>
                 <p className="why-choose-one__text">Ditangani oleh teknisi profesional dengan standar kerja yang konsisten untuk hasil bersih, rapi, dan higienis.</p>
               </div>
               <div className="why-choose-one__single-hover-inner">
@@ -70,7 +70,7 @@ export default function WhyChooseOne() {
                 <div className="why-choose-one__single-hover-inner-bg"
                   style={{ backgroundImage: 'url(/assets/images/backgrounds/why-choose-one-single-inner-bg.webp)' }}>
                 </div>
-                <h3 className="why-choose-one__hover-title"><a href="#services">Professional Cleaning Service</a></h3>
+                <h3 className="why-choose-one__hover-title"><a href="#services">Layanan Pembersihan Profesional</a></h3>
                 <p className="why-choose-one__hover-text">Ditangani oleh teknisi profesional dengan standar kerja yang konsisten untuk hasil bersih, rapi, dan higienis.</p>
               </div>
               <div className="why-choose-one__shape-2"></div>
@@ -95,7 +95,7 @@ export default function WhyChooseOne() {
                 <div className="why-choose-one__shape-1">
                   <img src="/assets/images/shapes/why-choose-one-shape-1.webp" alt="" />
                 </div>
-                <h3 className="why-choose-one__title"><a href="#services">Modern Cleaning Equipment</a></h3>
+                <h3 className="why-choose-one__title"><a href="#services">Peralatan Pembersihan Modern</a></h3>
                 <p className="why-choose-one__text">Menggunakan peralatan modern dan metode kerja efektif agar proses pembersihan lebih maksimal dan efisien.</p>
               </div>
               <div className="why-choose-one__single-hover-inner">
@@ -108,7 +108,7 @@ export default function WhyChooseOne() {
                 <div className="why-choose-one__single-hover-inner-bg"
                   style={{ backgroundImage: 'url(/assets/images/backgrounds/why-choose-one-single-inner-bg.webp)' }}>
                 </div>
-                <h3 className="why-choose-one__hover-title"><a href="#services">Modern Cleaning Equipment</a></h3>
+                <h3 className="why-choose-one__hover-title"><a href="#services">Peralatan Pembersihan Modern</a></h3>
                 <p className="why-choose-one__hover-text">Menggunakan peralatan modern dan metode kerja efektif agar proses pembersihan lebih maksimal dan efisien.</p>
               </div>
               <div className="why-choose-one__shape-2"></div>
@@ -133,7 +133,7 @@ export default function WhyChooseOne() {
                 <div className="why-choose-one__shape-1">
                   <img src="/assets/images/shapes/why-choose-one-shape-1.webp" alt="" />
                 </div>
-                <h3 className="why-choose-one__title"><a href="#services">Safe Cleaning Solution</a></h3>
+                <h3 className="why-choose-one__title"><a href="#services">Solusi Pembersihan Aman</a></h3>
                 <p className="why-choose-one__text">Memakai bahan pembersih yang aman, berkualitas, dan ramah digunakan untuk rumah maupun area komersial.</p>
               </div>
               <div className="why-choose-one__single-hover-inner">
@@ -146,7 +146,7 @@ export default function WhyChooseOne() {
                 <div className="why-choose-one__single-hover-inner-bg"
                   style={{ backgroundImage: 'url(/assets/images/backgrounds/why-choose-one-single-inner-bg.webp)' }}>
                 </div>
-                <h3 className="why-choose-one__hover-title"><a href="#services">Safe Cleaning Solution</a></h3>
+                <h3 className="why-choose-one__hover-title"><a href="#services">Solusi Pembersihan Aman</a></h3>
                 <p className="why-choose-one__hover-text">Memakai bahan pembersih yang aman, berkualitas, dan ramah digunakan untuk rumah maupun area komersial.</p>
               </div>
               <div className="why-choose-one__shape-2"></div>

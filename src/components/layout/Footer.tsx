@@ -60,7 +60,7 @@ export default function Footer() {
                   <h3 className="footer-widget__title" style={{ color: '#ffffff', fontSize: '22px', fontWeight: '600' }}>Navigasi</h3>
                 </div>
                 <div className="footer-widget__pages-box" style={{ marginTop: '20px' }}>
-                  <ul className="footer-widget__pages-list list-unstyled" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px 20px' }}>
+                  <ul className="footer-widget__pages-list list-unstyled" style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '12px' }}>
                     <li>
                       <a href="#home" style={{ color: '#cbd5e1', textDecoration: 'none', transition: 'all 0.2s' }}>Beranda</a>
                     </li>

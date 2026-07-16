@@ -31,12 +31,12 @@ export default function WorkProcess() {
             <div className="section-title-two__shape-1">
               <img src="/assets/images/shapes/section-title-shape-2.webp" alt="" />
             </div>
-            <p className="section-title-two__tagline">Work Process</p>
+            <p className="section-title-two__tagline">Proses Pemesanan</p>
             <div className="section-title-two__shape-1">
               <img src="/assets/images/shapes/section-title-shape-2.webp" alt="" />
             </div>
           </div>
-          <h2 className="section-title-two__title title-animation">Our Cleaning Working<br /> Process</h2>
+          <h2 className="section-title-two__title title-animation">Pesan Layanan Pembersihan Anda dalam 4 Langkah Mudah</h2>
         </div>
         <div className="work-process__inner">
           <div className="work-process__inner-shape-1">
@@ -53,8 +53,8 @@ export default function WorkProcess() {
                     <div className="work-process__count"></div>
                   </div>
                   <div className="work-process__content">
-                    <h3 className="work-process__title"><a href="#">Choose Services</a></h3>
-                    <p className="work-process__text">Scelerisque eleifend done pretium vulputate sapien treat pationet.</p>
+                    <h3 className="work-process__title">Pilih Layanan</h3>
+                    <p className="work-process__text">Pilih layanan pembersihan yang paling sesuai untuk rumah, kantor, atau area komersial Anda.</p>
                   </div>
                 </div>
               </div>
@@ -68,8 +68,8 @@ export default function WorkProcess() {
                   <div className="work-process__count"></div>
                 </div>
                 <div className="work-process__content">
-                  <h3 className="work-process__title"><a href="#">Give Us A Call</a></h3>
-                  <p className="work-process__text">Scelerisque eleifend done pretium vulputate sapien treat pationet.</p>
+                  <h3 className="work-process__title">Hubungi Tim Kami</h3>
+                  <p className="work-process__text">Hubungi kami via WhatsApp atau telepon, dan ceritakan kebutuhan pembersihan Anda.</p>
                 </div>
               </div>
             </div>
@@ -82,8 +82,8 @@ export default function WorkProcess() {
                   <div className="work-process__count"></div>
                 </div>
                 <div className="work-process__content">
-                  <h3 className="work-process__title"><a href="#">Quick Schedule</a></h3>
-                  <p className="work-process__text">Scelerisque eleifend done pretium vulputate sapien treat pationet.</p>
+                  <h3 className="work-process__title">Jadwalkan Janji Temu Anda</h3>
+                  <p className="work-process__text">Pilih tanggal dan waktu yang Anda inginkan. Kami akan mengkonfirmasi pemesanan Anda segera.</p>
                 </div>
               </div>
             </div>
@@ -96,8 +96,8 @@ export default function WorkProcess() {
                   <div className="work-process__count"></div>
                 </div>
                 <div className="work-process__content">
-                  <h3 className="work-process__title"><a href="#">Find Us Fast Now</a></h3>
-                  <p className="work-process__text">Scelerisque eleifend done pretium vulputate sapien treat pationet.</p>
+                  <h3 className="work-process__title">Kami Membersihkan Ruang Anda</h3>
+                  <p className="work-process__text">Tim profesional kami datang tepat waktu dan memberikan pengalaman pembersihan yang bersih total.</p>
                 </div>
               </div>
             </div>

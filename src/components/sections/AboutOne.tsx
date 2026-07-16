@@ -25,7 +25,7 @@ export default function AboutOne() {
                   </div>
                   <p className="about-one__count-year">Area</p>
                 </div>
-                <p className="about-one__count-text">Successfully Cleaned</p>
+                <p className="about-one__count-text">Area Berhasil Dibersihkan</p>
               </div>
             </div>
           </div>
@@ -45,15 +45,15 @@ export default function AboutOne() {
                   <div className="section-title__shape-1">
                     <img src="/assets/images/shapes/section-title-shape-1.webp" alt="" />
                   </div>
-                  <p className="section-title__tagline">ABOUT CLEANOX</p>
+                  <p className="section-title__tagline">TENTANG CLEANOX</p>
                 </div>
-                <h2 className="section-title__title title-animation">Creating Cleaner Spaces<br /> For Better Living</h2>
+                <h2 className="section-title__title title-animation">Menciptakan Ruangan Lebih Bersih<br /> Untuk Hidup Lebih Baik</h2>
               </div>
-              <p className="about-one__text">Cleanox provides professional cleaning services for homes, offices, and commercial spaces with trained technicians and reliable cleaning solutions.</p>
+              <p className="about-one__text">Cleanox menyediakan layanan pembersihan profesional dengan teknisi terlatih dan solusi terpercaya.</p>
               <ul className="about-one__progress-box list-unstyled">
                 <li>
                   <div className="about-one__progress">
-                    <h4 className="about-one__progress-title">Customer Satisfaction</h4>
+                    <h4 className="about-one__progress-title">Kepuasan Pelanggan</h4>
                     <div className="bar">
                       <div className="bar-inner count-bar" data-percent="98%">
                         <div className="count-text">98%</div>
@@ -63,7 +63,7 @@ export default function AboutOne() {
                 </li>
                 <li>
                   <div className="about-one__progress">
-                    <h4 className="about-one__progress-title">Professional Service</h4>
+                    <h4 className="about-one__progress-title">Layanan Profesional</h4>
                     <div className="bar">
                       <div className="bar-inner count-bar" data-percent="100%">
                         <div className="count-text">100%</div>
@@ -73,7 +73,7 @@ export default function AboutOne() {
                 </li>
               </ul>
               <div className="about-one__btn-box">
-                <a href="https://wa.me/6285122333381" className="thm-btn about-one__btn">CONSULT NOW <span></span>
+                <a href="https://wa.me/6285122333381" className="thm-btn about-one__btn">KONSULTASI SEKARANG <span></span>
                   <span></span> <span></span> <span></span> <span></span><i
                     className="icon-right-arrow"></i></a>
               </div>
@@ -81,6 +81,28 @@ export default function AboutOne() {
           </div>
         </div>
       </div>
+      <style jsx>{`
+        :global(.about-one__right) {
+          position: relative;
+          z-index: 2;
+        }
+        :global(.about-one__img-2) {
+          position: relative;
+          z-index: 1;
+        }
+        @media (max-width: 1199px) {
+          :global(.about-one__left) {
+            margin-bottom: 40px;
+          }
+        }
+        @media (max-width: 767px) {
+          :global(.about-one__btn-box .about-one__btn) {
+            font-size: 12px;
+            padding: 14px 20px;
+            min-height: auto;
+          }
+        }
+      `}</style>
     </section>
   );
 }

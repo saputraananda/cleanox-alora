@@ -86,18 +86,7 @@ export default function Header() {
                 </ul>
               </div>
 
-              <div className="main-menu__right-btn" style={{ minWidth: '160px', display: 'flex', justifyContent: 'flex-end' }}>
-                {isScrolled && (
-                  <a
-                    href="https://wa.me/6285122333381"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="booking-btn"
-                  >
-                    Booking Sekarang
-                  </a>
-                )}
-              </div>
+
 
             </div>
           </div>
@@ -211,9 +200,6 @@ export default function Header() {
           @media (max-width: 991px) {
             .nav-links {
               display: none !important;
-            }
-            .main-menu__right-btn {
-              min-width: auto;
             }
           }
         `}</style>
