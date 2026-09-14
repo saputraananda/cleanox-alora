@@ -14,19 +14,6 @@ export default function AboutOne() {
               <div className="about-one__img">
                 <img src="/assets/images/cleanox1.webp" alt="Cleanox Layanan Pembersihan" />
               </div>
-              <div className="about-one__experience">
-                <div className="about-one__experience-shape-1 zoominout">
-                  <img src="/assets/images/shapes/about-one-experience-shape-1.webp" alt="" />
-                </div>
-                <div className="about-one__count-box count-box">
-                  <div className="about-one__count">
-                    <h3 className="count-text" data-stop="1500" data-speed="1500">1.500</h3>
-                    <span>+</span>
-                  </div>
-                  <p className="about-one__count-year">Area</p>
-                </div>
-                <p className="about-one__count-text">Area Berhasil Dibersihkan</p>
-              </div>
             </div>
           </div>
           <div className="col-xl-6 col-lg-6">
@@ -123,47 +110,6 @@ export default function AboutOne() {
           display: block;
           object-fit: cover;
           border-radius: 24px;
-        }
-        :global(.about-one__experience) {
-          position: absolute;
-          bottom: 0px;
-          right: -15px;
-          background: linear-gradient(135deg, #0d3b66 0%, #001f3f 100%);
-          border: 3px solid #ffffff;
-          border-radius: 18px;
-          padding: 20px 24px;
-          box-shadow: 0 15px 35px rgba(13, 59, 102, 0.4);
-          max-width: 250px;
-          z-index: 2;
-        }
-        :global(.about-one__count h3) {
-          color: #ffffff;
-          font-size: 36px;
-          font-weight: 700;
-          line-height: 1;
-          margin: 0;
-        }
-        :global(.about-one__count span) {
-          color: #38bdf8;
-          font-size: 24px;
-          font-weight: 700;
-          margin-left: 2px;
-          top: 0;
-        }
-        :global(.about-one__count-year) {
-          color: rgba(255, 255, 255, 0.9);
-          font-size: 15px;
-          font-weight: 600;
-          margin-left: 8px;
-          margin-bottom: 0;
-          top: 0;
-        }
-        :global(.about-one__count-text) {
-          color: rgba(255, 255, 255, 0.85);
-          font-size: 13px;
-          line-height: 1.4;
-          margin-top: 6px;
-          margin-bottom: 0;
         }
         :global(.about-one__right) {
           margin-left: 15px;
@@ -275,21 +221,6 @@ export default function AboutOne() {
         @media (max-width: 767px) {
           :global(.about-one) {
             padding: 60px 0 80px;
-          }
-          :global(.about-one__experience) {
-            right: 0;
-            bottom: 0px;
-            padding: 16px 20px;
-            max-width: 220px;
-          }
-          :global(.about-one__count h3) {
-            font-size: 28px;
-          }
-          :global(.about-one__count span) {
-            font-size: 18px;
-          }
-          :global(.about-one__count-year) {
-            font-size: 14px;
           }
           :global(.about-one__btn-box .about-one__btn) {
             width: 100%;
