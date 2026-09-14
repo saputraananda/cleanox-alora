@@ -1,3 +1,5 @@
+import { Car } from 'lucide-react';
+
 export default function ServicesOne() {
   return (
     <section className="services-one" id="services">
@@ -10,7 +12,7 @@ export default function ServicesOne() {
               <div className="services-one__img-box">
                 <div className="services-one__img wow slideInLeft" data-wow-delay="100ms"
                   data-wow-duration="2500ms">
-                  <img src="/assets/images/cleanox5.webp" alt="" />
+                  <img src="/assets/images/cleanox5.png" alt="Layanan Cleanox" />
                 </div>
                 <div className="services-one__shape-1">
                   <div className="services-one__shape-2 float-bob-x">
@@ -75,9 +77,11 @@ export default function ServicesOne() {
                       <div className="services-one__list-single-inner">
                         <div className="services-one__count"></div>
                         <div className="services-one__icon">
-                          <span className="icon-pipeline"></span>
+                          <span className="services-one__outline-icon">
+                            <Car size={38} strokeWidth={1.5} />
+                          </span>
                         </div>
-                        <h3 className="services-one__title"><a href="#">Layanan<br /> Plumbing</a></h3>
+                        <h3 className="services-one__title"><a href="#">Car and<br /> Motorcycle</a></h3>
                       </div>
                     </div>
                   </li>
@@ -109,6 +113,21 @@ export default function ServicesOne() {
           </div>
         </div>
       </div>
+      <style jsx>{`
+        .services-one__outline-icon {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          color: var(--cleniq-base);
+          transition: all 500ms linear;
+          transition-delay: 0.1s;
+          transform: scale(1);
+        }
+        :global(.services-one__list li:hover) .services-one__outline-icon {
+          transform: scale(0.9);
+          color: var(--cleniq-white);
+        }
+      `}</style>
     </section>
   );
 }

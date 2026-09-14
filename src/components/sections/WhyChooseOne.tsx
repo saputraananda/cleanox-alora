@@ -67,9 +67,6 @@ export default function WhyChooseOne() {
                 <div className="why-choose-one__single-hover-shape-2 zoominout">
                   <img src="/assets/images/shapes/why-choose-one-single-hover-shape-2.webp" alt="" />
                 </div>
-                <div className="why-choose-one__single-hover-inner-bg"
-                  style={{ backgroundImage: 'url(/assets/images/backgrounds/why-choose-one-single-inner-bg.webp)' }}>
-                </div>
                 <h3 className="why-choose-one__hover-title"><a href="#services">Layanan Pembersihan Profesional</a></h3>
                 <p className="why-choose-one__hover-text">Ditangani oleh teknisi profesional dengan standar kerja yang konsisten untuk hasil bersih, rapi, dan higienis.</p>
               </div>
@@ -105,9 +102,6 @@ export default function WhyChooseOne() {
                 <div className="why-choose-one__single-hover-shape-2 zoominout">
                   <img src="/assets/images/shapes/why-choose-one-single-hover-shape-2.webp" alt="" />
                 </div>
-                <div className="why-choose-one__single-hover-inner-bg"
-                  style={{ backgroundImage: 'url(/assets/images/backgrounds/why-choose-one-single-inner-bg.webp)' }}>
-                </div>
                 <h3 className="why-choose-one__hover-title"><a href="#services">Peralatan Pembersihan Modern</a></h3>
                 <p className="why-choose-one__hover-text">Menggunakan peralatan modern dan metode kerja efektif agar proses pembersihan lebih maksimal dan efisien.</p>
               </div>
@@ -142,9 +136,6 @@ export default function WhyChooseOne() {
                 </div>
                 <div className="why-choose-one__single-hover-shape-2 zoominout">
                   <img src="/assets/images/shapes/why-choose-one-single-hover-shape-2.webp" alt="" />
-                </div>
-                <div className="why-choose-one__single-hover-inner-bg"
-                  style={{ backgroundImage: 'url(/assets/images/backgrounds/why-choose-one-single-inner-bg.webp)' }}>
                 </div>
                 <h3 className="why-choose-one__hover-title"><a href="#services">Solusi Pembersihan Aman</a></h3>
                 <p className="why-choose-one__hover-text">Memakai bahan pembersih yang aman, berkualitas, dan ramah digunakan untuk rumah maupun area komersial.</p>
